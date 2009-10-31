@@ -13,6 +13,7 @@ ActiveRecord::Schema.define(:version => 20091031205811) do
 
   create_table "people", :force => true do |t|
     t.string   "nickname"
+    t.integer  "avatar"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

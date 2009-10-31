@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>more_paginate demo app</title>
+    <%= stylesheet_link_tag "application", :cache => true %>
+  </head>
+  <body>
+    <div id="content">
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <div style="float:right;">
+        <a href="http://github.com/jodosha/more_paginate">more_paginate</a>
+      </div>
+      Copyright &copy; 2009 <a href="http://lucaguidi.com">Luca Guidi</a>
+    </div>
+    <%= javascript_include_tag "jquery", "more_paginate", "application", :cache => true %>
+  </body>
+</html>

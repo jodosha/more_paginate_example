@@ -1,0 +1,11 @@
+<ol class="tweetList">
+<% @tweets.each do |tweet| -%>
+  <li class="tweet">
+    <%= avatar tweet.person %>
+    <%= link_to h(tweet.person.nickname), person_path(tweet.person) %>
+    <%= truncate h(tweet.text), :length => 140 %><br />
+    <span class="time"><%= time_ago_in_words tweet.created_at %> ago</span>
+  </li>
+<% end -%>
+</ul>
+<%= more_paginate @tweets %>

@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; }
+body { font-family: Helvetica,Arial,sans-serif; color: #333; background-color: #c0deed; font-size: 16px; line-height: 24px; }
+h1 { margin: -20px; font-size: 60px; line-height: 100px; text-align: center; }
+ol { margin: 0 24px 24px; }
+li { line-height: 24px; list-style-type: none; vertical-align: text-top;}
+a { color: #333; padding: 1px; font-weight: bold; }
+img { border: none; float: left; margin: 4px;}
+#content { margin:0 auto; padding: 24px; width:700px; background-color:#fff; border: 1px solid #999; border-width: 0 1px 1px 1px; }
+#footer { margin:0 auto 0; padding: 12px; width:700px; line-height: 24px; }
+.tweet { height: 80px; border-top: 1px solid #dedede; }
+.time { font-size: 12px; float: right; font-style: italic; color: #666; }
