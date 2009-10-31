@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/more_paginate"]
+	path = vendor/plugins/more_paginate
+	url = git://github.com/jodosha/more_paginate.git
