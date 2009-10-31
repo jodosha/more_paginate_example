@@ -1,0 +1,9 @@
+h1. Demo app for "more_paginate":http://github.com/jodosha/more_paginate
+
+h1. Installation
+
+@git clone git://github.com/jodosha/more_paginate_example.git@
+@cd more_paginate_example@
+@script/server@
+
+There is a pre-filled database, if you need to load other data run @rake db:populate@ (requires @populator@ and @faker@ gems).
