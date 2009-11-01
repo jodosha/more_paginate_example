@@ -10,3 +10,5 @@ img { border: none; float: left; margin: 4px;}
 .bold { font-weight: bold; }
 .tweet { height: 80px; border-top: 1px solid #dedede; }
 .time { font-size: 12px; float: right; font-style: italic; color: #666; }
+.more_link, .more_link:visited { margin: 28px; padding: 8px 300px; font-size: 24px; color: #666; background-color: #dfdfdf; text-decoration: none; }
+.more_link:hover { color: #999; background-color: #efefef; }
