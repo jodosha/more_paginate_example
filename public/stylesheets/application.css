@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 body { font-family: Helvetica,Arial,sans-serif; color: #333; background-color: #c0deed; font-size: 16px; line-height: 24px; }
 h1 { margin: -20px; font-size: 60px; line-height: 100px; text-align: center; }
-ol { margin: 0 24px 24px; }
+ol { margin: 0px 24px; }
 li { line-height: 24px; list-style-type: none; vertical-align: text-top;}
 a { color: #333; padding: 1px; }
 img { border: none; float: left; margin: 4px;}
