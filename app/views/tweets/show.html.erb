@@ -1,0 +1,7 @@
+<div class="tweet">
+  <%= avatar @tweet.person %>
+  <%= link_to h(@tweet.person.nickname), person_path(@tweet.person), :class => "bold" %>
+  <%= truncate h(@tweet.text), :length => 140 %><br />
+  <span class="time"><%= @tweet.created_at.to_s(:db) %></span>
+</div>
+<%= link_to "&#x2190; back to tweets", root_path %>

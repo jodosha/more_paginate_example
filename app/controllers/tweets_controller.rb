@@ -7,4 +7,8 @@ class TweetsController < ApplicationController
       format.js { render :partial => "tweet_list" }
     end
   end
+
+  def show
+    @tweet = Tweet.find(params[:id], :include => :person)
+  end
 end
