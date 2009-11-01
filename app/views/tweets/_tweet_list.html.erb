@@ -4,7 +4,7 @@
     <%= avatar tweet.person %>
     <%= link_to h(tweet.person.nickname), person_path(tweet.person), :class => "bold" %>
     <%= truncate h(tweet.text), :length => 140 %><br />
-    <span class="time"><%= link_to "#{time_ago_in_words(tweet.created_at)} ago", tweet_path(tweet) %></span>
+    <span class="time"><%= link_to tweet.created_at.to_s(:db), tweet_path(tweet) %></span>
   </li>
 <% end -%>
 </ul>
