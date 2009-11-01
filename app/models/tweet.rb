@@ -6,6 +6,7 @@ class Tweet < ActiveRecord::Base
       :sort_key   => params[:sort_key] || "created_at",
       :sort_value => params[:sort_value],
       :sort_id    => params[:sort_id],
+      :sort_order => "desc",
       :include    => :person
   end
 end
