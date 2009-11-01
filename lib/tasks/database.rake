@@ -18,7 +18,7 @@ namespace :db do
 
     Tweet.populate 1000 do |tweet|
       tweet.text = Populator.sentences(1..3)
-      tweet.created_at = 2.years.ago(now)..now
+      tweet.created_at = 2.weeks.ago(now)..now
     end
 
     people = Person.all :select => [:id]
