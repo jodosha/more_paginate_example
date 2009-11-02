@@ -4,7 +4,7 @@ class TweetsController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.js { render :partial => "tweet_list" }
+      format.js { render :partial => "partial/tweet_list" }
     end
   end
 
