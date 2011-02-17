@@ -2,8 +2,8 @@ namespace :db do
   desc "Erase and fill the database with fake data."
   task :populate => :environment do
     begin
-      require "populator"
-      require "faker"
+      require 'populator'
+      require 'faker'
     rescue LoadError
       puts "You need 'populator' and 'faker' gems.\n\tTry with: (sudo) gem install populator faker"
     end

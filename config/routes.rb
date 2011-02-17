@@ -1,5 +1,5 @@
-ActionController::Routing::Routes.draw do |map|
-  map.resources :tweets, :only => [ :index, :show ]
-  map.resources :people, :only => [ :show ]
-  map.root :controller => "tweets"
+MorePaginateExample::Application.routes.draw do
+  resources :tweets
+  resources :people
+  match '/' => 'tweets#index'
 end
